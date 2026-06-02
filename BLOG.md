@@ -192,16 +192,20 @@ Give it a memory. Structured, retrievable, grounded in timestamps and boxes and 
 
 deja-reve is our small bet on that. It's local, it's a few hundred lines, and the entire interface is "give the model a good paragraph about what it's looking at." Turns out that's most of the battle.
 
-## Intall 
+## Install 
 
 ```bash
 pip install deja-reve
 ```
 
-
+## Usage
 ```bash
 deja-reve ingest your_video.mp4 --db memory.db
 deja-reve query --db memory.db --shot 1
 ```
+
+## Repo
+https://github.com/Natai-AI/deja-reve
+
 
 Go give your VLM something to remember.
